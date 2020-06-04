@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac363be-25b7-4728-941d-65e5e46aeb5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/consumer/app/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalculatorService.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorService.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="266">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#6#98#0#PHP" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/app/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#274#313#0#PHP" expanded="true" />
               </folding>
@@ -68,7 +68,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response9.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response11.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,9 +78,9 @@
         <option value="$PROJECT_DIR$/consumer/config/autoload/server.php" />
         <option value="$PROJECT_DIR$/provider/config/autoload/server.php" />
         <option value="$PROJECT_DIR$/provider/app/Rpc/CalculatroService.php" />
-        <option value="$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php" />
         <option value="$PROJECT_DIR$/consumer/config/autoload/services.php" />
         <option value="$PROJECT_DIR$/consumer/app/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php" />
       </list>
     </option>
   </component>
@@ -340,12 +340,12 @@
       <option name="presentableId" value="Default" />
       <updated>1591361191913</updated>
       <workItem from="1591361194157" duration="6169000" />
-      <workItem from="1591367483537" duration="2576000" />
+      <workItem from="1591367483537" duration="3018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8745000" />
+    <option name="totallyTimeSpent" value="9187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -354,10 +354,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="7" visible="true" weight="0.38778877" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="7" visible="true" weight="0.31023103" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2590759" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45049506" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -505,16 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#98#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/config/autoload/services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -524,10 +514,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/app/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#274#313#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
