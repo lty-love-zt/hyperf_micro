@@ -57,7 +57,6 @@ return array(
     'Laminas\\Stdlib\\' => array($vendorDir . '/laminas/laminas-stdlib/src'),
     'Laminas\\Mime\\' => array($vendorDir . '/laminas/laminas-mime/src'),
     'Jean85\\' => array($vendorDir . '/jean85/pretty-package-versions/src'),
-    'Installer\\' => array($baseDir . '/installer'),
     'Hyperf\\Utils\\' => array($vendorDir . '/hyperf/utils/src'),
     'Hyperf\\Tracer\\' => array($vendorDir . '/hyperf/tracer/src'),
     'Hyperf\\Testing\\' => array($vendorDir . '/hyperf/testing/src'),

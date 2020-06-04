@@ -174,7 +174,7 @@ final class Versions
   'symfony/process' => 'v5.1.0@7f6378c1fa2147eeb1b4c385856ce9de0d46ebd1',
   'symfony/stopwatch' => 'v5.1.0@0f7c58cf81dbb5dd67d423a89d577524a2ec0323',
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
-  'hyperf/hyperf-skeleton' => 'v1.1.4@',
+  'hyperf/hyperf-skeleton' => 'dev-master@dbeda98d3711c5aaa1b40fbd0bb2214071c1b895',
 );
 
     private function __construct()
