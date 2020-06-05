@@ -33,7 +33,7 @@ return [
             'port' => 9502,
             'sock_type' => SWOOLE_SOCK_TCP,
             'callbacks' => [
-                SwooleEvent::ON_REQUEST => [Hyperf\JsonRpc\HttpServer::class, 'onRequest'],
+                SwooleEvent::ON_REQUEST => [\Hyperf\JsonRpc\HttpServer::class, 'onRequest'],
             ],
         ],
     ],
