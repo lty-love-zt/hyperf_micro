@@ -8,8 +8,8 @@
 namespace App\Rpc;
 use Hyperf\RpcServer\Annotation\RpcService;
 /**
- * 服务名称、服务协议、
- * @RpcService(name="CalculatorService", protocol="jsonrpc-http", server="jsonrpc-http")
+ * 服务名称、服务协议、服务承载者、服务发布到consul服务中心
+ * @RpcService(name="CalculatorService", protocol="jsonrpc-http", server="jsonrpc-http", publishTo="consul")
  */
 class CalculatorService implements CalculatorServiceInterface
 {
