@@ -24,7 +24,7 @@ class IndexController extends AbstractController
 
     public function index()
     {
-        return $this->calculatorService->add(1, 2);
+        return $this->calculatorService->minus(10, 2);
     }
 
 }
