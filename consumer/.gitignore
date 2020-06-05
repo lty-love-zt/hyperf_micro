@@ -8,5 +8,4 @@ runtime/
 .phpintel/
 .env
 .DS_Store
-*.lock
 .phpunit*
