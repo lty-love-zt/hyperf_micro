@@ -10,14 +10,14 @@ namespace App\Rpc;
  * 服务名称、服务协议、
  * @RpcService(name="CalculatroService", protocol="jsonrpc-http", server="jsonrpc-http")
  */
-class CalculatroService
+class CalculatroService implements CalculatorServiceInterface
 {
-    public function add(int $a, int $b)
+    public function add(int $a, int $b): int
     {
         return $a + $b;
     }
 
-    public function minus(int $a, int $b)
+    public function minus(int $a, int $b): int
     {
         return $a - $b;
     }
