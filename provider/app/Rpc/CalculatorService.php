@@ -11,7 +11,7 @@ use Hyperf\RpcServer\Annotation\RpcService;
  * 服务名称、服务协议、
  * @RpcService(name="CalculatorService", protocol="jsonrpc-http", server="jsonrpc-http")
  */
-class CalculatroService implements CalculatorServiceInterface
+class CalculatorService implements CalculatorServiceInterface
 {
     public function add(int $a, int $b): int
     {

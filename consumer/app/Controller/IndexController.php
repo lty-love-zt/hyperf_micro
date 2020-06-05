@@ -12,23 +12,13 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Rpc\CalculatorServiceInterface;
 use Hyperf\Di\Annotation\Inject;
 class IndexController extends AbstractController
 {
-//    public function index()
-//    {
-//        $user = $this->request->input('user', 'Hyperf');
-//        $method = $this->request->getMethod();
-//
-//        return [
-//            'method' => $method,
-//            'message' => "Hello {$user}.",
-//        ];
-//    }
-
     /**
      * @Inject()
-     * @var \App\Rpc\CalculatorServiceInterface
+     * @var CalculatorServiceInterface
      */
     private $calculatorService;
 
@@ -36,4 +26,5 @@ class IndexController extends AbstractController
     {
         return $this->calculatorService->add(1, 2);
     }
+
 }
