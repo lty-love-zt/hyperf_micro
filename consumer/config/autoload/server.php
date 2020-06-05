@@ -15,7 +15,7 @@ use Hyperf\Server\SwooleEvent;
 
 return [
     'mode' => SWOOLE_PROCESS,
-    'servers' => [
+    'servers' => [ //配置不同的server
         [
             'name' => 'http',
             'type' => Server::SERVER_HTTP,

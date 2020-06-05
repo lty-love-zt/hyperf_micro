@@ -12,7 +12,10 @@ declare(strict_types=1);
 
 return [
     'handler' => [
-        'http' => [
+        //可以给不同的server配置不同的异常处理类
+
+        'http' => [ //这里的http跟配置文件server.php中的servers.name的值是对应的
+
             \App\Exception\Handler\FooExceptionHandler::class,
             App\Exception\Handler\AppExceptionHandler::class,
         ],
