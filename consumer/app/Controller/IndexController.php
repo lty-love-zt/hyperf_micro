@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-
+use Hyperf\Di\Annotation\Inject;
 class IndexController extends AbstractController
 {
 //    public function index()
