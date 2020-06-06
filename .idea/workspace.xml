@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac363be-25b7-4728-941d-65e5e46aeb5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer/app/Exception/FooException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/app/Exception/Handler/FooExceptionHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/app/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Controller/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/config/autoload/exceptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/config/autoload/exceptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/app/Exception/FooException.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Exception/FooException.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooExceptionHandler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FooExceptionHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/app/Exception/Handler/FooExceptionHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="24">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#135#166#0#PHP" expanded="true" />
               </folding>
@@ -91,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooException.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FooException.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer/app/Exception/FooException.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="171">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,9 +136,9 @@
         <option value="$PROJECT_DIR$/provider/app/Rpc/CalculatorService.php" />
         <option value="$PROJECT_DIR$/consumer/config/autoload/services.php" />
         <option value="$PROJECT_DIR$/consumer/app/Controller/TestController.php" />
-        <option value="$PROJECT_DIR$/consumer/app/Exception/FooException.php" />
         <option value="$PROJECT_DIR$/consumer/config/autoload/exceptions.php" />
         <option value="$PROJECT_DIR$/consumer/app/Exception/Handler/FooExceptionHandler.php" />
+        <option value="$PROJECT_DIR$/consumer/app/Exception/FooException.php" />
       </list>
     </option>
   </component>
@@ -464,12 +459,12 @@
       <option name="presentableId" value="Default" />
       <updated>1591361191913</updated>
       <workItem from="1591361194157" duration="6169000" />
-      <workItem from="1591367483537" duration="7734000" />
+      <workItem from="1591367483537" duration="7939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13903000" />
+    <option name="totallyTimeSpent" value="14108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -478,11 +473,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="REST Client" order="7" visible="true" weight="0.21617162" />
+      <window_info anchor="bottom" id="REST Client" order="7" weight="0.34653464" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30858085" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20462047" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4240924" />
@@ -690,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/app/Exception/FooException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/vendor/hyperf/exception-handler/src/ExceptionHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -713,11 +701,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/app/Exception/Handler/FooExceptionHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="24">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#135#166#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/app/Exception/FooException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>

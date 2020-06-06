@@ -9,9 +9,7 @@
 namespace App\Exception;
 
 
-use http\Exception\RuntimeException;
-
-class FooException extends RuntimeException
+class FooException extends \RuntimeException
 {
 
 }
