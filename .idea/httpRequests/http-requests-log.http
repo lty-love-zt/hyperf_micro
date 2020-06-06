@@ -1,3 +1,19 @@
+GET http://192.168.0.10:9503/test/exception
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-06T052536.500.html
+
+###
+
+GET http://192.168.0.10:9503/test/co
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-06T052524.200.txt
+
+###
+
 GET http://192.168.0.10:9503/test/co
 Accept: */*
 Cache-Control: no-cache
