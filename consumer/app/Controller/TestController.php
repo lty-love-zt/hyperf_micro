@@ -8,6 +8,7 @@
 
 namespace App\Controller;
 
+use http\Exception\RuntimeException;
 use Hyperf\HttpServer\Annotation\AutoController;
 /**
  * Class TestController
@@ -24,5 +25,10 @@ class TestController
             }
         });
         return 1;
+    }
+
+    public function exception()
+    {
+        throw new \RuntimeException("test");
     }
 }
