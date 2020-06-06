@@ -33,7 +33,7 @@ class UserService
             // 注册用户
             $userId = rand(0, 9999);
         } else {
-            return false;
+            return 0;
         }
 
         // 注册成功后

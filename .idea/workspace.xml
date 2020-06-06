@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fac363be-25b7-4728-941d-65e5e46aeb5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/app/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Service/UserService.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserService.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer/app/Service/UserService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="218">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="e#125#158#0#PHP" expanded="true" />
               </folding>
@@ -47,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidateRegisterListener.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidateRegisterListener.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            <state relative-caret-position="511">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
               <folding>
                 <element signature="e#58#91#0#PHP" expanded="true" />
               </folding>
@@ -63,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -110,7 +111,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response39.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response47.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -132,8 +133,8 @@
         <option value="$PROJECT_DIR$/consumer/app/Listener/SendEmailListener.php" />
         <option value="$PROJECT_DIR$/consumer/app/Controller/EventController.php" />
         <option value="$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php" />
-        <option value="$PROJECT_DIR$/consumer/app/Service/UserService.php" />
         <option value="$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php" />
+        <option value="$PROJECT_DIR$/consumer/app/Service/UserService.php" />
       </list>
     </option>
   </component>
@@ -474,12 +475,12 @@
       <option name="presentableId" value="Default" />
       <updated>1591361191913</updated>
       <workItem from="1591361194157" duration="6169000" />
-      <workItem from="1591367483537" duration="13383000" />
+      <workItem from="1591367483537" duration="13524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19552000" />
+    <option name="totallyTimeSpent" value="19693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -488,7 +489,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="7" visible="true" weight="0.27227724" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="7" visible="true" weight="0.35643566" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28877887" />
@@ -741,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/app/Event/UserRegistered.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -775,22 +769,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/app/Service/UserService.php">
+    <entry file="file://$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="511">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding>
-            <element signature="e#125#158#0#PHP" expanded="true" />
+            <element signature="e#58#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php">
+    <entry file="file://$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="171">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/app/Service/UserService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="e#58#91#0#PHP" expanded="true" />
+            <element signature="e#125#158#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

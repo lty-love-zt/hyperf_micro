@@ -37,6 +37,6 @@ class ValidateRegisterListener implements ListenerInterface
     public function process(object $event)
     {
         $event->shouldRegister  = (bool) rand(0, 1);
-        echo $event->shouldRegister;
+        echo $event->shouldRegister . PHP_EOL;
     }
 }
