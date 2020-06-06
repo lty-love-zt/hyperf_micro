@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Listener;
 
+use App\Event\UserRegistered;
 use Hyperf\Event\Annotation\Listener;
 use Psr\Container\ContainerInterface;
 use Hyperf\Event\Contract\ListenerInterface;
@@ -26,10 +27,15 @@ class SendEmailListener implements ListenerInterface
     public function listen(): array
     {
         return [
+            UserRegistered::class, //监听用户注册事件
         ];
     }
 
+    /**
+     * @param UserRegistered $event
+     */
     public function process(object $event)
     {
+        echo "发送Email给" . $event->userId . PHP_EOL;
     }
 }
