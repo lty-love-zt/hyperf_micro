@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fac363be-25b7-4728-941d-65e5e46aeb5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer/app/Controller/EventController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/app/Event/UserRegistered.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/app/Service/UserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/app/Listener/SendEmailListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Listener/SendEmailListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/app/Listener/SendSmsListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Listener/SendSmsListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/app/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/app/Service/UserService.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,19 +42,40 @@
       <file leaf-file-name="UserService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/app/Service/UserService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="258">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding>
-                <element signature="e#125#154#0#PHP" expanded="true" />
+                <element signature="e#125#158#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidateRegisterListener.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#58#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeforeUserRegister.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/app/Controller/EventController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="276">
               <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="e#127#159#0#PHP" expanded="true" />
@@ -103,7 +123,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response33.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response35.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,8 +143,10 @@
         <option value="$PROJECT_DIR$/consumer/app/Event/UserRegistered.php" />
         <option value="$PROJECT_DIR$/consumer/app/Listener/SendSmsListener.php" />
         <option value="$PROJECT_DIR$/consumer/app/Listener/SendEmailListener.php" />
-        <option value="$PROJECT_DIR$/consumer/app/Service/UserService.php" />
         <option value="$PROJECT_DIR$/consumer/app/Controller/EventController.php" />
+        <option value="$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php" />
+        <option value="$PROJECT_DIR$/consumer/app/Service/UserService.php" />
+        <option value="$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php" />
       </list>
     </option>
   </component>
@@ -327,6 +349,20 @@
               <item name="hyperf_micro" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Event" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hyperf_micro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyperf_micro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Listener" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="hyperf_micro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyperf_micro" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="consumer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -345,6 +381,26 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://192.168.0.10:9503" />
+          <option name="urlPath" value="/event/test" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://192.168.0.10:9503" />
@@ -431,12 +487,12 @@
       <option name="presentableId" value="Default" />
       <updated>1591361191913</updated>
       <workItem from="1591361194157" duration="6169000" />
-      <workItem from="1591367483537" duration="12339000" />
+      <workItem from="1591367483537" duration="13208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18508000" />
+    <option name="totallyTimeSpent" value="19377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -445,11 +501,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="REST Client" order="7" weight="0.50165015" />
+      <window_info anchor="bottom" id="REST Client" order="7" weight="0.14851485" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17326732" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3679868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4240924" />
@@ -715,22 +771,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/app/Service/UserService.php">
+    <entry file="file://$PROJECT_DIR$/consumer/app/Controller/EventController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="276">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <element signature="e#125#154#0#PHP" expanded="true" />
+            <element signature="e#127#159#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/app/Controller/EventController.php">
+    <entry file="file://$PROJECT_DIR$/consumer/app/Event/BeforeUserRegister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="171">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/app/Service/UserService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
-            <element signature="e#127#159#0#PHP" expanded="true" />
+            <element signature="e#125#158#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/app/Listener/ValidateRegisterListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#58#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

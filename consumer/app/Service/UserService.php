@@ -9,6 +9,7 @@
 namespace App\Service;
 
 
+use App\Event\BeforeUserRegister;
 use App\Event\UserRegistered;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use Hyperf\Di\Annotation\Inject;
@@ -24,8 +25,17 @@ class UserService
 
     public function register()
     {
-        // 注册用户
-        $userId = rand(0, 9999);
+        // 注册成功前
+        $beforeUserRegister = new BeforeUserRegister();
+        $this->eventDispatcher->dispatch($beforeUserRegister); //通过事件调度器触发事件
+
+        if ($beforeUserRegister->shouldRegister) {
+            // 注册用户
+            $userId = rand(0, 9999);
+        } else {
+            return false;
+        }
+
         // 注册成功后
         if ($userId) {
             // 普通的逻辑迭代

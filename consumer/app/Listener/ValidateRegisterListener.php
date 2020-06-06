@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Listener;
 
+use App\Event\BeforeUserRegister;
 use Hyperf\Event\Annotation\Listener;
 use Psr\Container\ContainerInterface;
 use Hyperf\Event\Contract\ListenerInterface;
@@ -26,10 +27,15 @@ class ValidateRegisterListener implements ListenerInterface
     public function listen(): array
     {
         return [
+            BeforeUserRegister::class,
         ];
     }
 
+    /**
+     * @param BeforeUserRegister $event
+     */
     public function process(object $event)
     {
+        $event->shouldRegister  = (bool) rand(0, 1);
     }
 }
