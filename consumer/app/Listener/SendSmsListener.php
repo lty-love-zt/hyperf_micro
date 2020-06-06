@@ -10,7 +10,8 @@ use Psr\Container\ContainerInterface;
 use Hyperf\Event\Contract\ListenerInterface;
 
 /**
- * @Listener
+ * // 设置监听器的优先级：值越大，优先级越高
+ * @Listener(priority=10)
  */
 class SendSmsListener implements ListenerInterface
 {

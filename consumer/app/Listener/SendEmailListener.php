@@ -10,7 +10,7 @@ use Psr\Container\ContainerInterface;
 use Hyperf\Event\Contract\ListenerInterface;
 
 /**
- * @Listener
+ * @Listener(priority=9)
  */
 class SendEmailListener implements ListenerInterface
 {
