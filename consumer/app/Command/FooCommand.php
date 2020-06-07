@@ -57,7 +57,11 @@ class FooCommand extends HyperfCommand
         //$this->line(sprintf('Hello %s', implode(',', $name)), 'info');
 
         // 常用的输出函数
-        $this->output->writeln("<error>Hello</error> World");
-        $this->output->writeln("Hello World");
+        //$this->output->writeln("<error>Hello</error> World"); //换行输出
+        //$this->output->writeln("Hello World");
+
+        // 询问方式
+        $value = $this->output->ask("Hello World?", 'Hyperf');
+        $this->output->writeln($value);
     }
 }
