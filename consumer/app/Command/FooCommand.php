@@ -39,7 +39,7 @@ class FooCommand extends HyperfCommand
         //$this->addArgument('name2', InputArgument::OPTIONAL, 'name2', 'Hyperf');
 
         // 定义可选参数
-        $this->addOption('name', 'n', InputOption::VALUE_OPTIONAL, '名字', 'Hyperf');
+        $this->addOption('name', 'n1', InputOption::VALUE_OPTIONAL, '名字', 'Hyperf');
     }
 
     public function handle()
