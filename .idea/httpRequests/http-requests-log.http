@@ -238,81 +238,63 @@ Cache-Control: no-cache
 
 ###
 
-GET http://192.168.0.10:9503/test/exception
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-06-06T054735.500.html
-
-###
-
-GET http://192.168.0.10:9503/test/co
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-06-06T054721.200.txt
-
-###
-
-GET http://192.168.0.10:9503/test/exception
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-06-06T052536.500.html
-
-###
-
-GET http://192.168.0.10:9503/test/co
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-06-06T052524.200.txt
-
-###
-
-GET http://192.168.0.10:9503/test/co
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-06-06T051135.200.txt
-
-###
-
-GET http://192.168.0.10:9503/
+GET http://192.168.0.10:9503/event/test
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://192.168.0.10:9503/
+GET http://192.168.0.10:9503/event/test
 Accept: */*
 Cache-Control: no-cache
-
-<> 2020-06-06T120053-1.200.txt
 
 ###
 
-GET http://192.168.0.10:9503/
+GET http://192.168.0.10:9503/event/test
 Accept: */*
 Cache-Control: no-cache
-
-<> 2020-06-06T120053.200.txt
 
 ###
 
-GET http://192.168.0.10:9503/
+GET http://192.168.0.10:9503/event/test
 Accept: */*
 Cache-Control: no-cache
-
-<> 2020-06-06T120051-1.200.txt
 
 ###
 
-GET http://192.168.0.10:9503/
+GET http://192.168.0.10:9503/event/test
 Accept: */*
 Cache-Control: no-cache
 
-<> 2020-06-06T120051.200.txt
+###
+
+GET http://192.168.0.10:9503/event/test
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://192.168.0.10:9503/event/test
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://192.168.0.10:9503/event/test
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://192.168.0.10:9503/event/test
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://192.168.0.10:9503/event/test
+Accept: */*
+Cache-Control: no-cache
 
 ###
 
