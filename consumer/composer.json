@@ -34,7 +34,8 @@
         "hyperf/amqp": "~1.1.0",
         "hyperf/model-cache": "~1.1.0",
         "hyperf/elasticsearch": "~1.1.0",
-        "hyperf/tracer": "~1.1.0"
+        "hyperf/tracer": "~1.1.0",
+        "lty-love-zt/CalculatorService": "*"
     },
     "require-dev": {
         "swoft/swoole-ide-helper": "^4.2",
