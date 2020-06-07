@@ -38,8 +38,8 @@
       <file leaf-file-name="FooCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer/app/Command/FooCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="233">
+              <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
               <folding>
                 <element signature="e#57#101#0#PHP" expanded="true" />
               </folding>
@@ -492,12 +492,12 @@
       <option name="presentableId" value="Default" />
       <updated>1591361191913</updated>
       <workItem from="1591361194157" duration="6169000" />
-      <workItem from="1591367483537" duration="18351000" />
+      <workItem from="1591367483537" duration="18810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24520000" />
+    <option name="totallyTimeSpent" value="24979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -509,7 +509,7 @@
       <window_info anchor="bottom" id="REST Client" order="7" weight="0.32178217" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.10726073" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4290429" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -832,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/app/Command/FooCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        <state relative-caret-position="233">
+          <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
           <folding>
             <element signature="e#57#101#0#PHP" expanded="true" />
           </folding>
