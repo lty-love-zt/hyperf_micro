@@ -32,8 +32,9 @@ class FooCommand extends HyperfCommand
         parent::configure();
         $this->setDescription('Hyperf Demo Command');
 
-        //定义命令行参数
+        //定义命令行参数: 可以定义多个参数
         $this->addArgument('name', InputArgument::OPTIONAL, 'name', 'Hyperf');
+        $this->addArgument('name2', InputArgument::OPTIONAL, 'name2', 'Hyperf');
     }
 
     public function handle()
@@ -43,6 +44,7 @@ class FooCommand extends HyperfCommand
 
         // 获取命令行参数
         $name = $this->input->getArgument('name');
-        $this->line(sprintf('Hello %s!', $name), 'info');
+        $name2 = $this->input->getArgument('name2');
+        $this->line(sprintf('Hello %s %s!', $name, $name2), 'info');
     }
 }
