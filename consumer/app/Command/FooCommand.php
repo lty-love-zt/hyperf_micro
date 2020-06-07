@@ -7,6 +7,7 @@ namespace App\Command;
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Command\Annotation\Command;
 use Psr\Container\ContainerInterface;
+use Symfony\Component\Console\Input\InputArgument;
 
 /**
  * @Command
@@ -30,11 +31,18 @@ class FooCommand extends HyperfCommand
         // 设置当前命令类的各个属性
         parent::configure();
         $this->setDescription('Hyperf Demo Command');
+
+        //定义命令行参数
+        $this->addArgument('name', InputArgument::REQUIRED, 'name');
     }
 
     public function handle()
     {
         // 这里写命令类要执行的业务逻辑
-        $this->line('Hello Hyperf!', 'info');
+        //$this->line('Hello Hyperf!', 'info');
+
+        // 获取命令行参数
+        $name = $this->input->getArgument('name');
+        $this->line(sprintf('Hello %s!', $name), 'info');
     }
 }
