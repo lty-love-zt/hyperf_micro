@@ -33,7 +33,7 @@ class FooCommand extends HyperfCommand
         $this->setDescription('Hyperf Demo Command');
 
         //定义命令行参数
-        $this->addArgument('name', InputArgument::REQUIRED, 'name');
+        $this->addArgument('name', InputArgument::OPTIONAL, 'name', 'Hyperf');
     }
 
     public function handle()
