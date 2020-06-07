@@ -7,7 +7,9 @@ namespace App\Command;
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Command\Annotation\Command;
 use Psr\Container\ContainerInterface;
+use Symfony\Component\Console\Input\Input;
 use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
 
 /**
  * @Command
@@ -33,8 +35,11 @@ class FooCommand extends HyperfCommand
         $this->setDescription('Hyperf Demo Command');
 
         //定义命令行参数: 可以定义多个参数
-        $this->addArgument('name', InputArgument::OPTIONAL, 'name', 'Hyperf');
-        $this->addArgument('name2', InputArgument::OPTIONAL, 'name2', 'Hyperf');
+        //$this->addArgument('name', InputArgument::OPTIONAL, 'name', 'Hyperf');
+        //$this->addArgument('name2', InputArgument::OPTIONAL, 'name2', 'Hyperf');
+
+        // 定义可选参数
+        $this->addOption('name', 'n', InputOption::VALUE_OPTIONAL, '名字', 'Hyperf');
     }
 
     public function handle()
@@ -43,8 +48,11 @@ class FooCommand extends HyperfCommand
         //$this->line('Hello Hyperf!', 'info');
 
         // 获取命令行参数
-        $name = $this->input->getArgument('name');
-        $name2 = $this->input->getArgument('name2');
-        $this->line(sprintf('Hello %s %s!', $name, $name2), 'info');
+        //$name = $this->input->getArgument('name');
+        //$name2 = $this->input->getArgument('name2');
+
+        // 获取可选参数
+        $name = $this->input->getOption('name');
+        $this->line(sprintf('Hello %s', $name), 'info');
     }
 }
