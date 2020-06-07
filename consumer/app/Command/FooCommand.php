@@ -64,7 +64,10 @@ class FooCommand extends HyperfCommand
         //$value = $this->output->ask("Hello World?", 'Hyperf');
 
         // 选择
-        $value = $this->output->choice('Hello World?', ['Hyperf1', 'Hyperf2']);
+        //$value = $this->output->choice('Hello World?', ['Hyperf1', 'Hyperf2']);
+
+        // 确认
+        $value = $this->output->confirm('Hello World?', false);
         $this->output->writeln($value);
     }
 }
