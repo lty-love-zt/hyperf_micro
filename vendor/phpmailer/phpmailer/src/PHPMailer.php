@@ -837,7 +837,7 @@ class PHPMailer
      */
     public function __destruct()
     {
-        echo "PHPMailer类destruct方法被调用";
+        //echo "PHPMailer类destruct方法被调用";
         //Close any open SMTP connection nicely
         $this->smtpClose();
     }
